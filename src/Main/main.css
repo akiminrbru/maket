@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("/public/fonts/roboto/Roboto-Regular.ttf");
+}
+
 .content__1 {
     width: 1100px;
     margin: auto;
@@ -38,4 +43,94 @@
     font-size: 14px;
     line-height: 17px;
     font-style: normal;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+}
+
+.content__2 {
+    height: 90px;
+    background-color: #1E959B;
+}
+
+.partners {
+    padding-top: 15.5px;
+    margin: auto;
+    display: flex;
+    width: 1167px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__3 {
+    padding-top: 120px;
+    width: 1167px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.box {
+    width: 195px;
+    height: 164px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+    box-shadow: 0px 4px 4px rgba(30, 149, 155, 0.5);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.box img {
+    padding-bottom: 21px;
+}
+
+.box p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3C3C3C;
+}
+
+.content__4 {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 33px;
+    align-items: center;
+}
+
+.text__1 {
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1E959B;
+    
+}
+
+.text__2 {
+    padding-bottom: 50px;
+    font-family: "Roboto-Bold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3C3C3C;
+}
+
+.start__interview {
+    width: 257px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #F05670;
+    border: 0px;
+    color: #FFFFFF;
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-style: normal;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
 }
