@@ -12,15 +12,15 @@ function Footer() {
                 </div>
                 <div>
                     <p className="text__bold">Связаться с нами</p>
-                    <div>
-                        <img src="/picture/header/phone.svg"></img>
+                    <div className="phone__number">
+                        <img src="/picture/header/phone.svg" className="phone__icon"></img>
                         <span className="text__bold">+7 800 301 25-32</span>
                     </div>
                 </div>
                 <div><img src="/picture/header/telegram.svg"></img></div>
                 <div><img src="/picture/header/mail.svg"></img></div>
                 <div className="back"><img src="/picture/header/blocknot.svg"></img></div>
-                <div>
+                <div className="about">
                     Индивидуальный предприниматель <br/>
                     Степанов Георгий Константинович <br/>
                     Адрес: г. Обнинск, ул. Белкинская. 19, <br/>

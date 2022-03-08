@@ -134,3 +134,100 @@
     font-style: normal;
     box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
 }
+
+.content__5 {
+    padding-top: 120px;
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.text__h1 {
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #1E959B;
+}
+
+.text__h4 {
+    padding-top: 14px;
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E959B;
+}
+
+.text__p {
+    padding-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.projects {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 44px;
+}
+
+.projects__element {
+    padding-top: 25px;
+    width: 320px;
+    height: 320px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FD 100%);
+    border-radius: 25px;
+}
+
+.button__all {
+    width: 233px;
+    height: 70px;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid  #1E959B;
+    font-family: Roboto-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1E959B;
+}
+
+.button__request {
+    width: 329.53px;
+    height: 99px;
+    background: #F05670;
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+    border-radius: 20px;
+    border: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.content__8 {
+    padding-top: 120px;
+    padding-bottom: 85px;
+    display: flex;
+    width: 766px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}

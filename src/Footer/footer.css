@@ -25,6 +25,7 @@
 }
 
 .text {
+    padding-bottom: 14px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -50,4 +51,22 @@
     background: linear-gradient(270deg, #1E959B 0%, #AFDEDE 100%);
     box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
     border-radius: 20px;
+}
+
+.about {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.phone__number {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.phone__icon {
+    padding-right: 16px;
 }

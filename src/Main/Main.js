@@ -42,6 +42,73 @@ function Main() {
                     <button className="start__interview">Записаться на интервью</button>
                 </div>
             </div>
+            <div className="content__5">
+                <div><h1 className="text__h1">Проекты команды productfit</h1></div>
+                <div className="projects">
+                    <div className="projects__element">
+                        <img src="/picture/content5/1.png"></img>
+                        <h4 className="text__h4">Cabify</h4>
+                        <p className="text__p">
+                            Кроссплатформенное приложение <br/>
+                            под Android и iOS разработано на <br/>
+                            React Native(Python)
+                        </p>
+                    </div>
+                    <div className="projects__element">
+                        <img src="/picture/content5/2.png"></img>
+                        <h4 className="text__h4">Ural Airlines</h4>
+                        <p className="text__p">
+                            Все сервисы для пассажиров <br/>
+                            «Уральских авиалиний» в одном  <br/>
+                            приложении на Swift и Java
+                        </p>
+                    </div>
+                    <div className="projects__element">
+                        <img src="/picture/content5/3.png"></img>
+                        <h4 className="text__h4">OpenGift</h4>
+                        <p className="text__p">
+                            Система монетизации <br/>
+                            OpenSource-проектов на основе <br/>
+                            блокчейна hyperledger fabric
+                        </p>
+                    </div>
+                    <div className="projects__element">
+                        <img src="/picture/content5/4.png"></img>
+                        <h4 className="text__h4">PlanDi</h4>
+                        <p className="text__p">
+                            Сервис поиска актуальной работы <br/>
+                            проектировщикам и компаниям
+                        </p>
+                    </div>
+                    <div className="projects__element">
+                        <img src="/picture/content5/5.png"></img>
+                        <h4 className="text__h4">Коалиция</h4>
+                        <p className="text__p">
+                            Проект для ведущего в России Центра <br/>
+                            образования, который осуществляет <br/>
+                            подготовку школьников к сдаче ЕГЭ.
+                        </p>
+                    </div>
+                    <div className="projects__element">
+                        <img src="/picture/content5/6.png"></img>
+                        <h4 className="text__h4">Rubetek</h4>
+                        <p className="text__p">
+                            Управление домом IoT <br/>
+                            и микрофреймворк на языке Python <br/>
+                            совместно с Java и Swift
+                        </p>
+                    </div>
+                </div>
+                <div><button className="button__all">Все проекты</button></div>
+            </div>
+            <div className="content__8">
+                <div>
+                    <img src="/picture/content8/Group.svg"></img>
+                </div>
+                <div>
+                    <button className="button__request">Оставить заявку</button>
+                </div>
+            </div>
         </div>
     );
 }
